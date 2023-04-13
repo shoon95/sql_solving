@@ -38,6 +38,6 @@ ORDER BY SUM(A.score) DESC, A.hacker_id;
 
 ### 🛀결과
 
-![image-20230414014720084](C:\Users\sjhty\AppData\Roaming\Typora\typora-user-images\image-20230414014720084.png)
+![image-20230414014720084](image-20230414014720084.png)
 
 처음에 테이블을 합치고 그룹을 묶어줄 때 여러컬럼을 동시에 group by 해줘야된다는 것을 몰랐다. 때문에 하나 컬럼으로만 데이터를 묶고 총합 또는 평균을 구하려고 하니 에러가 났었다. 이때는 똑같이 묶일 수 있는 여러 컬럼을 동시에 GROUP BY를 사용하여 묶어주어야 한다.
